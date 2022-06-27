@@ -1,4 +1,6 @@
-# CSS: fun and games
+# CSS
+
+## fun and games
 
 ---
 
@@ -6,9 +8,9 @@
 
 1. Przypomnienie podstaw
 
-   1. składnia języka: selektory i zbiory reguł
-   1. składnia języka: regułki z małpką
-   1. model pudełkowy
+   * składnia języka: selektory i zbiory reguł
+   * składnia języka: regułki z małpką
+   * model pudełkowy
 
 2. Selektory: a cóż w tym takiego trudnego?!?
 3. Małpi gaj ;)

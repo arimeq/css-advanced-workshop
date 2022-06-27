@@ -1,6 +1,6 @@
 <!-- .slide: data-background="#000" -->
 # Regułki z małpką
-![Avatar NFT Bored Ape należący do Madonny](../../gifs/ape.png)
+![Avatar NFT Bored Ape należący do Madonny](gifs/ape.png)
 
 
 ## Rodzaje regułek

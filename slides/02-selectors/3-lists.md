@@ -34,7 +34,7 @@ albo<!-- .element: class="fragment fade-in" -->
 <!-- .element: class="fragment fade-in" -->
 
 \* a czym się różni `:is()` od `:where()`?
-<!-- .element: class="fragment fade-in" style="font-size:0.6em;opacity:.7" -->
+<!-- .element: class="fragment fade-in footnote" -->
 
 notes: :is() ma specyficzność najsilniejszego selektora w nawiasach,
 podczas gdy :where() ma specyficzność 0, niezależnie od zawartości w nawiasach
@@ -78,9 +78,9 @@ dir ol dir,   dir ul dir,   dir menu dir,   dir dir dir {
 
 ### Bonusy używania `:is()` / `:where()`
 
- * upraszczają listę selektorów
- * wprowadzają *forgiving selectors list*
- * upraszczają manipulowanie specyficznością
+ * <!-- .element: class="fragment fade-in" --> upraszczają listę selektorów
+ * <!-- .element: class="fragment fade-in" --> wprowadzają *forgiving selectors list*
+ * <!-- .element: class="fragment fade-in" --> upraszczają manipulowanie specyficznością
 
  notes: forgiving selectors list polega na tym, że jeśli którykolwiek
  z selektorów użytych w liście nie jest obsługiwany przez przeglądarkę,

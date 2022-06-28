@@ -13,7 +13,7 @@
    * model pudełkowy
 
 2. Selektory: a cóż w tym takiego trudnego?!?
-3. Małpi gaj ;)
+3. Małpi gaj ;-)
 4. Layoutowanie
 
 ---

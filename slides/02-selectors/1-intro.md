@@ -3,9 +3,15 @@
 
 czyli _choose your destiny_
 
-notes:
-selektory:
-- specyficzność selektorów
-- listy selektorów
-    selektory nieobsługiwane powodują problemy
-    :is() albo :where() - forgiving selector list
+
+## O czym nie będę tutaj mówił
+
+ * <!-- .element: class="fragment fade-in" --> nie wymienię dostępnych
+   selektorów (ID, (pseudo)klasa, (pseudo)element, atrybut...)
+ * <!-- .element: class="fragment fade-in" --> nie wymienię dostępnych
+   rodzajów połączeń między selektorami (potomkowie, dzieci, rodzeństwo...)
+ * <!-- .element: class="fragment fade-in" --> tym razem nie omówię rzeczy
+   typu `:nth-of-type`
+ * <!-- .element: class="fragment fade-in" --> zamierzam też pominąć funkcje 
+   (`counter`, `calc`, `attr` itd)
+ 

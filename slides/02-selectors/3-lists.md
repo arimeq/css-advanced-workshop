@@ -3,9 +3,9 @@
 
 ## ...czyli jak unikać powtórzeń
 
- * zdarza się, że ten sam zestaw reguł trzeba zaaplikować w kilku miejscach
- * zdarza się, że selektory tych miejsc różnią się tylko jednym elementem
- * ...dochodzi do nieładnych powtórzeń:
+ * <!-- .element: class="fragment fade-in" -->zdarza się, że ten sam zestaw reguł trzeba zaaplikować w kilku miejscach
+ * <!-- .element: class="fragment fade-in" -->zdarza się, że selektory tych miejsc różnią się tylko jednym elementem
+ * <!-- .element: class="fragment fade-in" -->...dochodzi do nieładnych powtórzeń:
    ```css
    .main section p.selected,
    .main aside p.selected,
@@ -32,6 +32,12 @@ albo<!-- .element: class="fragment fade-in" -->
 }
 ```
 <!-- .element: class="fragment fade-in" -->
+
+\* a czym się różni `:is()` od `:where()`?
+<!-- .element: class="fragment fade-in" style="font-size:0.6em;opacity:.7" -->
+
+notes: :is() ma specyficzność najsilniejszego selektora w nawiasach,
+podczas gdy :where() ma specyficzność 0, niezależnie od zawartości w nawiasach
 
 
 a może nieco "wymowniejszy" przykład?
@@ -68,3 +74,16 @@ dir ol dir,   dir ul dir,   dir menu dir,   dir dir dir {
 
 
 <!-- .slide: data-background-image="gifs/link-yes.gif" -->
+
+
+### Bonusy używania `:is()` / `:where()`
+
+ * upraszczają listę selektorów
+ * wprowadzają *forgiving selectors list*
+ * upraszczają manipulowanie specyficznością
+
+ notes: forgiving selectors list polega na tym, że jeśli którykolwiek
+ z selektorów użytych w liście nie jest obsługiwany przez przeglądarkę,
+ cała lista nadal jest poprawnie używana. Jest to zachowanie odwrotne
+ do zwykłej listy rozdzielonej przecinkami, gdzie jeden niepoprawny selektor
+ powoduje odrzucenie całej listy.

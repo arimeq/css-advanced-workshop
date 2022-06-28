@@ -1,4 +1,8 @@
-## Specyficzność
+# `!important` problem
+
+notes: zdarza się, że musimy nadpisać jakieś regułki. Pierwszą metodą,
+która przychodzi nam do głowy, jest użycie !important. A może da się inaczej?
+
 
 W CSS istnieje algorytm obliczający, która regułka jest ważniejsza.
 Reguła jest najważniejsza, jeśli jej selektor ma najwyższą
@@ -50,7 +54,7 @@ trzeci selektor: specyficzność `1-2-1`
 - <!-- .element: class="fragment fade-in" -->napisz selektor o specyficzności 0-0-1
 - <!-- .element: class="fragment fade-in" -->oblicz specyficzność selektora:
   ```css
-  #main div.login fieldset[name] input:focus {
+  #main div.login form[name] input:focus {
     outline: none;
   }
   ```

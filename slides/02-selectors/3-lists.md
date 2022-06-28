@@ -78,9 +78,12 @@ dir ol dir,   dir ul dir,   dir menu dir,   dir dir dir {
 
 ### Bonusy używania `:is()` / `:where()`
 
- * <!-- .element: class="fragment fade-in" --> upraszczają listę selektorów
- * <!-- .element: class="fragment fade-in" --> wprowadzają *forgiving selectors list*
- * <!-- .element: class="fragment fade-in" --> upraszczają manipulowanie specyficznością
+ * <!-- .element: class="fragment fade-in" -->
+   upraszczają listę selektorów
+ * <!-- .element: class="fragment fade-in" -->
+   wprowadzają _forgiving selectors list_
+ * <!-- .element: class="fragment fade-in" -->
+   upraszczają manipulowanie specyficznością
 
  notes: forgiving selectors list polega na tym, że jeśli którykolwiek
  z selektorów użytych w liście nie jest obsługiwany przez przeglądarkę,

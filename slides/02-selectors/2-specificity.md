@@ -49,10 +49,14 @@ trzeci selektor: specyficzność `1-2-1`
 
 ### Ćwiczenia!
 
-- <!-- .element: class="fragment fade-in" -->napisz selektor o specyficzności 1-0-0
-- <!-- .element: class="fragment fade-in" -->napisz selektor o specyficzności 0-1-0
-- <!-- .element: class="fragment fade-in" -->napisz selektor o specyficzności 0-0-1
-- <!-- .element: class="fragment fade-in" -->oblicz specyficzność selektora:
+ * <!-- .element: class="fragment fade-in" -->
+   napisz selektor o specyficzności `1-0-0`
+ * <!-- .element: class="fragment fade-in" -->
+   napisz selektor o specyficzności `0-1-0`
+ * <!-- .element: class="fragment fade-in" -->
+   napisz selektor o specyficzności `0-0-1`
+ * <!-- .element: class="fragment fade-in" -->
+   oblicz specyficzność selektora:
   ```css
   #main div.login form[name] input:focus {
     outline: none;

@@ -73,3 +73,31 @@ main, aside {
 ```
 
 [dokumentacja na MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Container_Queries)<!-- .element: class="fragment fade-in footnote" -->
+
+notes: Dzięki container queries będzie można np. lepiej enkapsulować komponenty,
+do poziomu takiego, że responsywność będzie można implementować w komponencie,
+zamiast dla całego layoutu.
+
+
+## Kolejna nowość: `@layer`
+
+ * <!-- .element: class="fragment fade-in" -->
+   służy do grupowania deklaracji styli i porządkowania kaskady
+ * <!-- .element: class="fragment fade-in" -->
+   przy pomocy tej reguły można jasno zdefiniować, które style
+   są do nadpisania przez inne style
+ * <!-- .element: class="fragment fade-in" -->
+   przykład:
+   ```css
+   @layer bootstrap, base, application;
+
+   @import url(bootstrap.css) layer(bootstrap);
+
+   @layer base {
+    body { ... }
+   }
+   ```
+
+notes: Ta regułka również jest obecnie na etapie propozycji, 
+ale widać wyraźnie, że w dużych projektach będzie oddawała ogromne
+przysługi.

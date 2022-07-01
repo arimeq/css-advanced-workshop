@@ -16,6 +16,9 @@
 3. Małpi gaj ;-)
 4. Layoutowanie
 
+bit.ly/3yyPrLR
+<!-- .element: class="footnote" -->
+
 ---
 
 <!-- .slide: data-background-image="gifs/ready.gif" -->

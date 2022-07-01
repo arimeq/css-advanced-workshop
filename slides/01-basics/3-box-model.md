@@ -7,9 +7,10 @@
 1. liniowe
 2. blokowe
 
-notes:
+notes: mamy coś takiego jak flow layout (a.k.a. normal flow).
 w zasadzie rozmawiamy o display:inline/display:block
 omówić różnice między inline a block
+element można wyjąć z flow i wtedy jest on niezależny
 
 
 ## Liniowe

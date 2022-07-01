@@ -29,7 +29,7 @@ złożonej z trzech części, gdzie każda odpowiada innej kategorii wagi.
 
 ### Przykład
 
-```css
+```css [1|2|3|1-5]
 [type="password"],
 input:focus,
 :root #myApp input:required {
